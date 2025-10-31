@@ -4,7 +4,7 @@ import Header from '../header/Header';
 import Slider from '../slider/Slider';
 import Filter from '../filter/Filter';
 import Cards from '../cards/Cards';
-import ApiService from "../serviсes/ApiServices";
+import ApiService from '../services/ApiServices';
 
 import imgBannerFirst from '../../assets/img/banner.png';
 import imgBannerSecond from '../../assets/img/banner2.png';
