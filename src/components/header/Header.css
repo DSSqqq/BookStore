@@ -1,0 +1,109 @@
+button {
+    border: none;
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.header {
+    background-color: #ffff;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-items {
+    position: fixed;
+    z-index: 9999;
+    background-color: #ffff;
+    width: 1440px;
+}
+
+.header-wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.Header-logo {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #1C2A39;
+}
+
+.Header-navigation>a {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    text-decoration: none;
+    color: #5C6A79;
+    margin-right: 40px;
+
+
+}
+
+.Header-navigation>a:hover {
+    color: #1C2A39;
+}
+
+.Header-navigation>a:last-child {
+    margin-right: 0;
+}
+
+
+.active-navigation {
+    color: #1C2A39;
+}
+
+.header-icons {
+    position: relative;
+    display: flex;
+
+
+}
+
+.header-icons>button:nth-child(-n+2) {
+    margin-right: 40px;
+}
+
+.header-count {
+    position: absolute;
+    left: 125px;
+    top: 8px;
+    width: 13px;
+    height: 13px;
+    border: none;
+    border-radius: 50%;
+    background-color: #FF353A;
+
+    padding-top: 0.5px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0;
+
+
+
+
+
+}
